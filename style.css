@@ -14,6 +14,13 @@ h4 {
     color: #E6A64C;
     font-size: 23px;
 }
+p {
+  text-align: center;
+  font-size: 17px;
+}
+li {
+  font-size: 17px;
+}
 .topnav {
     background-color: #09656D;
     overflow: hidden;
@@ -34,12 +41,19 @@ h4 {
     background-color: #0d98a5;
     color: white;
   }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #09656D;
-    color: white;
-    text-align: center;
-  }
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+} 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #09656D;
+  color: white;
+  text-align: center;
+}
